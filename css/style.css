@@ -1,0 +1,568 @@
+
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+body {
+
+    padding-bottom: 20px;
+
+    overflow-x: hidden;
+    background: url("../img/bg-pizziria.gif")  no-repeat scroll 0px 0px  ;
+
+}
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+
+    background: #ea0427;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VhMDQyNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjM5JSIgc3RvcC1jb2xvcj0iI2M2YzZjNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ4JSIgc3RvcC1jb2xvcj0iI2ZmMDBlOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijg3JSIgc3RvcC1jb2xvcj0iI2Y4NzkwNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk3JSIgc3RvcC1jb2xvcj0iI2ZmNmEwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk5JSIgc3RvcC1jb2xvcj0iI2M2YzZjNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: -moz-linear-gradient(top,  #ea0427 0%, #c6c6c6 39%, #ff00e9 48%, #f87904 87%, #ff6a00 97%, #c6c6c6 99%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ea0427), color-stop(39%,#c6c6c6), color-stop(48%,#ff00e9), color-stop(87%,#f87904), color-stop(97%,#ff6a00), color-stop(99%,#c6c6c6));
+    background: -webkit-linear-gradient(top,  #ea0427 0%,#c6c6c6 39%,#ff00e9 48%,#f87904 87%,#ff6a00 97%,#c6c6c6 99%);
+    background: -o-linear-gradient(top,  #ea0427 0%,#c6c6c6 39%,#ff00e9 48%,#f87904 87%,#ff6a00 97%,#c6c6c6 99%);
+    background: -ms-linear-gradient(top,  #ea0427 0%,#c6c6c6 39%,#ff00e9 48%,#f87904 87%,#ff6a00 97%,#c6c6c6 99%);
+    background: linear-gradient(to bottom,  #ea0427 0%,#c6c6c6 39%,#ff00e9 48%,#f87904 87%,#ff6a00 97%,#c6c6c6 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea0427', endColorstr='#c6c6c6',GradientType=0 );
+
+
+}
+.header{
+    padding-top: 50px;
+    min-height:760px;
+    background: url("../img/header-bg.png")  no-repeat scroll 0px 0px  ;
+
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+
+    -webkit-box-shadow: inset 1px 1px 20px 6px rgba(232,122,12,1);
+    -moz-box-shadow: inset 1px 1px 20px 6px rgba(232,122,12,1);
+    box-shadow: inset 1px 1px 20px 6px rgba(232,122,12,1);
+
+}
+#Bmenu{
+    opacity: 0.8;
+}
+
+#header-top-title{
+    min-height: 144px;
+    background:#000;
+    opacity: 0.7;
+}
+#header-middle {
+    min-height: 354px;
+
+}
+#header-footer{
+    min-height: 200px;
+    background: #919191;
+    opacity: 0.9;
+
+}
+.header h1,h3{
+    color: #faaaaa;
+    text-transform: uppercase;
+
+}
+
+.header h2,h4{
+    color: #919191;
+    font-size: 500;
+    text-transform: uppercase;
+
+}
+.grcode{
+    height: 200px;
+}
+.grcode_img img{
+    width: 36%;
+    height: 30%;
+}
+.navbar-inverse {
+    background-image: linear-gradient(to bottom, #0C0C0C 0px, #919191 100%);
+    background-repeat: repeat-x;
+}
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: 0;
+}
+nav{
+    font-size: 15px;
+}
+.navbar-inverse .pizza.navbar-brand {
+    color: #f8c31c;
+}
+.navbar-inverse .pasta.navbar-brand {
+    color: #1cdf03;
+}
+.navbar-inverse .auflauf.navbar-brand {
+    color: #00abff;
+}
+.navbar-inverse .salate.navbar-brand {
+    color: #fd1b04;
+}
+.navbar-inverse .fastfood.navbar-brand {
+    color: #280fff;
+}
+.navbar-inverse .chenesich.navbar-brand {
+    color: #000000;
+}
+.navbar-inverse .dessert.navbar-brand{
+    color: #671cf8;
+}
+.navbar-inverse .drink.navbar-brand {
+    color: #f87904;
+}
+
+.navbar-inverse .pizza.navbar-brand:hover{
+    color: #ffffff;
+}
+.navbar-inverse .pasta.navbar-brand:hover{
+    color: #ffffff;
+}
+.navbar-inverse .auflauf.navbar-brand:hover {
+    color: #ffffff;
+}
+.navbar-inverse .salate.navbar-brand:hover {
+    color: #ffffff;
+}
+.navbar-inverse .fastfood.navbar-brand:hover {
+    color: #ffffff;
+}
+.navbar-inverse .chenisich.navbar-brand:hover {
+    color: #ffffff;
+}
+.navbar-inverse .dessert.navbar-brand:hover{
+    color: #ffffff;
+}
+.navbar-inverse .drink.navbar-brand:hover {
+    color: #ffffff;
+}
+
+#header-footer h1{
+    font-weight: 400;
+    font-size: 40px;
+    margin-top: 5px;
+
+
+}
+#header-footer h2{
+    font-weight: 400;
+    font-size: 60px;
+   color: #ffffff;
+    margin-top: 5px;
+
+
+
+}
+#header-footer h3{
+    font-weight: 300;
+color: #f6f6f6;
+    margin-top: 5px;
+
+}
+
+#header-footer p{
+    color: #121212;
+    font-weight: 200;
+}
+.jumbotron h1{
+    color:#fd0b62 ;
+}
+.jumbotron {
+    padding: 30px 15px;
+    margin-bottom: 30px;
+
+    color: #5d5d5d;
+    background-color: #d9ff74;
+
+    -webkit-box-shadow: inset 1px 1px 300px -37px rgba(NaN,235,NaN,1);
+    -moz-box-shadow: inset 6px 6px 300px -37px rgba(NaN,235,NaN,1);
+    box-shadow: inset 1px 1px 300px -37px rgba(NaN,235,NaN,1);
+
+
+}
+.jumbotron p{
+    font-size: 17px;
+}
+.jumbotron_img img{
+    border-top: 0.5em solid #5dfd17;
+    border-bottom: 0.5em solid #919191;
+    border-left: 0.5em solid #222891;
+    border-right: 0.5em solid #f87904;
+    cursor: pointer;
+}
+.img-pizza img{
+    background-color: #f8c31c;
+}
+.img-pasta img{
+    background-color: #1cdf03;
+}
+.img-auflaufe img{
+    background-color: #00abff;
+}
+.img-salate img{
+    background-color: #e0200a;
+}
+.img-fastfood img{
+    background-color: #280fff;
+}
+.img-drink img{
+    background-color: #f87904;
+}
+.jumbotron_img img:hover{
+    background-color: #919191;
+    border-top: 0.5em solid #e1e1e1;
+    border-bottom: 0.5em solid #092625;
+    border-left: 0.5em solid #f2f2f2;
+    border-right: 0.5em solid #092625;
+   opacity: 0.8;
+}
+
+.jumbotron .row {
+    margin-right: -68px;
+    margin-left: -68px;
+}
+ /*======================================Start menu1================================================== */
+.content{
+    background: #000;
+    opacity: 0.95;
+}
+.menu .menu1{
+    min-height: 300px;
+    background: transparent;
+    color: #f6f6f6;
+}
+.header-menu1{
+   min-height: 250px;
+}
+.Hawaii{
+    min-height: 50px;
+    background-color: transparent;
+    color: #f8f8f8;
+    border: 0.2em solid #e0e0e0;
+    padding-top: 10px;
+}
+.item-title-drink{
+    background-color:#f87904 ;
+}
+.item-title-pizza{
+    background-color:#f8c31c ;
+}
+.item-title-pasta{
+    background-color:#1cdf03 ;
+}
+.item-title-auflauf{
+    background-color:#00abff ;
+}
+.item-title-salate{
+    background-color:#e0200a ;
+}
+.item-title-fastfood{
+    background-color:#280fff ;
+}
+.item-title-dessert{
+    background-color:#671cf8 ;
+}
+.item-title-chinesich{
+    background-color:#121212 ;
+}
+.Hawaii span{
+    font-size: 10px;
+}
+
+/*========================================End of menu1================================================= */
+
+/*return-to-top scroll*/
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #ea0427;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VhMDQyNyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjM5JSIgc3RvcC1jb2xvcj0iI2M2YzZjNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQ4JSIgc3RvcC1jb2xvcj0iI2ZmMDBlOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijg3JSIgc3RvcC1jb2xvcj0iI2Y4NzkwNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk3JSIgc3RvcC1jb2xvcj0iI2ZmNmEwMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk5JSIgc3RvcC1jb2xvcj0iI2M2YzZjNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+    background: -moz-linear-gradient(top,  #ea0427 0%, #c6c6c6 39%, #ff00e9 48%, #f87904 87%, #ff6a00 97%, #c6c6c6 99%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ea0427), color-stop(39%,#c6c6c6), color-stop(48%,#ff00e9), color-stop(87%,#f87904), color-stop(97%,#ff6a00), color-stop(99%,#c6c6c6));
+    background: -webkit-linear-gradient(top,  #ea0427 0%,#c6c6c6 39%,#ff00e9 48%,#f87904 87%,#ff6a00 97%,#c6c6c6 99%);
+    background: -o-linear-gradient(top,  #ea0427 0%,#c6c6c6 39%,#ff00e9 48%,#f87904 87%,#ff6a00 97%,#c6c6c6 99%);
+    background: -ms-linear-gradient(top,  #ea0427 0%,#c6c6c6 39%,#ff00e9 48%,#f87904 87%,#ff6a00 97%,#c6c6c6 99%);
+    background: linear-gradient(to bottom,  #ea0427 0%,#c6c6c6 39%,#ff00e9 48%,#f87904 87%,#ff6a00 97%,#c6c6c6 99%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ea0427', endColorstr='#c6c6c6',GradientType=0 );
+
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #e02e1b;
+    top: 5px;
+}
+
+
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers:
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   http://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster:
+                                   http://www.sanbeiji.com/archives/953 */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
